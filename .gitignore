@@ -1,0 +1,106 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# SonarQube
+.sonar/
+sonar-report.json
+sonar-scanner.log
+
+# Bandit security reports
+bandit.json
+bandit.yaml
+bandit.log
+
+# Redis dump files
+dump.rdb
+
+# HashiCorp Vault local files
+vault.log
+vault-data/
+vault-config/
+
+# FastAPI/Uvicorn logs
+*.log
+
+# Authlib cache
+.authlib/
+
+# JWT secrets
+*.pem
+*.key
+*.crt
+
+# Docker
+*.pid
+*.pid.lock
+*.db
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Documentation build artifacts
+docs/_build/
+docs/.doctrees/
+docs/.DS_Store
+
+# Ignore test output
+tests/__pycache__/
+tests/*.log
+
+# Ignore config secrets
+src/config/*.secret
+src/config/*.env
+.env
+.env.*
